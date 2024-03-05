@@ -6,7 +6,7 @@ class Vehicle:
                     self.model=model
                     self.increment_vehicle_count()
         def increment_vehicle_count(self):
-                    self.vehicle_count+=1
+                    Vehicle.vehicle_count+=1
 
         def get_vehicle_count(self):
                     return self.vehicle_count
