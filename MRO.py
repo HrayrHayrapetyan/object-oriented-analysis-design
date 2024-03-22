@@ -1,4 +1,4 @@
-locals()def new_mro(ls,new_element):
+def new_mro(ls,new_element):
     final_mro = []
     final_mro.append(new_element)
     for i in range(len(ls)):
